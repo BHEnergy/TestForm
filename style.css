@@ -71,10 +71,15 @@ body {
     font-size: 20px;
     padding: 12px;
     border: 1px solid #2A81CF;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.btnContent {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    cursor: pointer;
+    /* visibility: hidden; */
 }
 .footerForm {
     display: flex;
@@ -83,7 +88,7 @@ body {
     justify-content: space-between;
 }
 .loader {
-  color: #2A81CF;
+  color: #ffffff;
   font-size: 24px;
   text-indent: -9999em;
   overflow: hidden;
@@ -94,6 +99,12 @@ body {
   transform: translateZ(0);
   animation: mltShdSpin 1.7s infinite ease, round 1.7s infinite ease;
   visibility: hidden;
+}
+.pushMsg {
+font-size: 24px;
+}
+.pushMsgAlert {
+color: rgb(252, 40, 40);
 }
 @keyframes mltShdSpin {
   0% {
